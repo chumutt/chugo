@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{ .Content }}
   <h1>Article list</h1>
 	{{range $name, $taxonomy := .Site.Taxonomies.categories}} {{ $cnt := .Count }}
 	  {{ with $.Site.GetPage (printf "/categories/%s" $name) }}
@@ -11,6 +12,6 @@
         {{ partial "walk.html" . }}
       {{ end }}
   {{ end }}
-	  {{end}}
-	{{end}}
+	  {{ end }}
+	{{ end }}
 {{ end }}
