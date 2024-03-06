@@ -10,6 +10,7 @@ Renders a menu for the given menu ID.
 {{- $page := .page }}
 {{- $menuID := .menuID }}
 
+<center>
 {{- with index site.Menus $menuID }}
   <nav>
     <ul>
@@ -17,7 +18,6 @@ Renders a menu for the given menu ID.
     </ul>
   </nav>
 {{- end }}
-
 {{- define "partials/inline/menu/walk.html" }}
   {{- $page := .page }}
   {{- range .menuEntries }}
@@ -49,3 +49,4 @@ Renders a menu for the given menu ID.
       |
   {{- end }}
 {{- end }}
+</center>
