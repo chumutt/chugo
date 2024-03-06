@@ -1,8 +1,7 @@
 {{ define "main" }}
-  {{ .Content }}
+  <h1>Article list</h1>
+  <h2>Category #1</h2> <!-- example mockup -->
   {{ range site.RegularPages }}
-  <center>
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-  </center>
+    <a class="articlelist" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
   {{ end }}
 {{ end }}
