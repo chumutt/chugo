@@ -1,7 +1,16 @@
 {{ define "main" }}
   <h1>Article list</h1>
-  {{ range site.RegularPages }}
-    <a class="articlelist" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-    <br>
+	{{range $name, $taxonomy := .Site.Taxonomies.categories}} {{ $cnt := .Count }}
+	  {{ with $.Site.GetPage (printf "/categories/%s" $name) }}
+      <h2>
+        {{ strings.Title $name }}
+      </h2>
+    {{ range .Pages.ByTitle }}
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ if .Pages }}
+        {{ partial "walk.html" . }}
+      {{ end }}
   {{ end }}
+	  {{end}}
+	{{end}}
 {{ end }}
