@@ -7,7 +7,7 @@
         {{ strings.Title $name }}
       </h2>
     {{ range .Pages.ByTitle }}
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <a class="articlelist" href="{{ .RelPermalink }}">{{ .Title }}</a>
       {{ if .Pages }}
         {{ partial "walk.html" . }}
       {{ end }}
