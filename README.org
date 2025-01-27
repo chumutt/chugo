@@ -1,9 +1,1 @@
 #+title: chugo
-
-* Theme Name
-
-** Features
-
-** Installation
-
-** Configuration
