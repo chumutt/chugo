@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-hugo server --cleanDestinationDir --disableFastRender
+hugo server --disableFastRender
