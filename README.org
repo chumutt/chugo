@@ -1,4 +1,4 @@
-#+title: chugo
+#+title: Readme
 
 A [[https://github.com/gohugoio/hugo][Hugo]] theme I'm working on for [[https://github.com/chumutt/dogboner.xyz][my website]], which is also a work in progress.
 
