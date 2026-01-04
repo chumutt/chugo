@@ -1,9 +1,11 @@
 #+title: chugo
 
-* Theme Name
+A [[https://github.com/gohugoio/hugo][Hugo]] theme I'm working on for [[https://github.com/chumutt/dogboner.xyz][my website]], which is also a work in progress.
 
-** Features
+* Chugo - a Theme for Hugo
 
-** Installation
+** TODO Features
 
-** Configuration
+** TODO Installation
+
+** TODO Configuration
