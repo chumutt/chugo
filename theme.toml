@@ -1,0 +1,12 @@
+name = 'chugo'
+license = 'MIT'
+licenselink = 'https://github.com/chumutt/chugo/LICENSE'
+description = 'a hugo theme'
+homepage = 'https://github.com/chumutt/chugo'
+
+[author]
+  name = 'chu'
+
+[original]
+  author = 'vinliao'
+  repo = 'https://github.com/vinliao/hugo-starter.git'
