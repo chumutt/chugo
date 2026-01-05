@@ -29,5 +29,5 @@ weight = 40
 
 [params]
   [params.author]
-    name = 'John Smith'
-    email = 'jsmith@email.arpa'
+    name = 'Ben Bitdiddle'
+    email = 'bbitdiddle@email.arpa'
