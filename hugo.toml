@@ -26,3 +26,8 @@ weight = 40
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+
+[params]
+  [params.author]
+    name = 'John Smith'
+    email = 'jsmith@email.arpa'
