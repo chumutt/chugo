@@ -1,11 +1,11 @@
 name = 'chugo'
 license = 'MIT'
 licenselink = 'https://github.com/chumutt/chugo/LICENSE'
-description = 'a hugo theme'
+description = 'a hugo theme by chu the pup'
 homepage = 'https://github.com/chumutt/chugo'
 
 [author]
-  name = 'chu'
+  name = 'chu the pup'
 
 [original]
   author = 'vinliao'
