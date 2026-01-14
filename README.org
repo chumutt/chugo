@@ -9,3 +9,72 @@ A [[https://github.com/gohugoio/hugo][Hugo]] theme I'm working on for [[https://
 ** TODO Installation
 
 ** TODO Configuration
+
+*** Site Configuration
+
+#+begin_src toml :tangle ./hugo.toml
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'Categories'
+pageRef = '/categories'
+weight = 30
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 40
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
+
+[params]
+  [params.author]
+    name = 'Ben Bitdiddle'
+    email = 'benbitdiddle@faketestemail.arpa'
+  [params.copyright]
+    type = 'Copyright'
+    # type = '(no)Copyright'
+    # type = 'CC0 1.0 Public Domain: This work has been dedicated to the public domain under the CC0 1.0 Universal Public Domain Dedication.'
+    # type = 'CC BY-SA (Attribution-ShareAlike): Requires credit and sharing under the same license.'
+    # type = 'CC BY-NC (Attribution-NonCommercial): Allows use but not for commercial purposes.'
+    # type = 'CC BY-ND (Attribution-NoDerivatives): Allows sharing but not modifications'
+    # type = 'or whatever you like'
+    symbol = '©'
+    # symbol = '🄯'
+    preposition = 'by'
+    name = 'John Doe.' # Your name followed by a period.
+    # statement = 'All rights reserved.'
+    statement = ''
+#+end_src
+
+*** Theme Configuration
+
+#+begin_src toml :tangle ./theme.toml
+name = 'chugo'
+license = 'MIT'
+licenselink = 'https://github.com/chumutt/chugo/LICENSE'
+description = 'a hugo theme by chu the pup'
+homepage = 'https://github.com/chumutt/chugo'
+
+[author]
+  name = 'chu the pup'
+
+[original]
+  author = 'vinliao'
+  repo = 'https://github.com/vinliao/hugo-starter.git'
+#+end_src
