@@ -1,16 +1,14 @@
 #+title: Readme
 
-A [[https://github.com/gohugoio/hugo][Hugo]] theme I'm working on for [[https://github.com/chumutt/dogboner.xyz][my website]], which is also a work in progress.
+Chugo is a [[https://github.com/gohugoio/hugo][Hugo]] theme I'm working on for [[https://github.com/chumutt/dogboner.xyz][my website]], which is also a work in progress.
 
-* Chugo - a Theme for Hugo
+* TODO Features
 
-** TODO Features
+* TODO Installation
 
-** TODO Installation
+* Configuration
 
-** Configuration
-
-*** Site Configuration
+** Site Configuration
 
 #+begin_src toml :tangle ./hugo.toml
 baseURL = 'https://example.org/'
@@ -62,7 +60,7 @@ weight = 40
     statement = ''
 #+end_src
 
-*** Theme Configuration
+** Theme Configuration
 
 #+begin_src toml :tangle ./theme.toml
 name = 'chugo'
