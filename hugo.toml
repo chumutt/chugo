@@ -33,7 +33,15 @@ weight = 40
     email = 'benbitdiddle@faketestemail.arpa'
   [params.copyright]
     type = 'Copyright'
+    # type = '(no)Copyright'
+    # type = 'CC0 1.0 Public Domain: This work has been dedicated to the public domain under the CC0 1.0 Universal Public Domain Dedication.'
+    # type = 'CC BY-SA (Attribution-ShareAlike): Requires credit and sharing under the same license.'
+    # type = 'CC BY-NC (Attribution-NonCommercial): Allows use but not for commercial purposes.'
+    # type = 'CC BY-ND (Attribution-NoDerivatives): Allows sharing but not modifications'
+    # type = 'or whatever you like'
     symbol = '©'
+    # symbol = '🄯'
     preposition = 'by'
-    name = 'Chu the Pup.' # Your name followed by a period.
-    statement = 'All rights reserved.'
+    name = 'John Doe.' # Your name followed by a period.
+    # statement = 'All rights reserved.'
+    statement = ''
