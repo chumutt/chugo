@@ -8,7 +8,7 @@ A [[https://github.com/gohugoio/hugo][Hugo]] theme I'm working on for [[https://
 
 ** TODO Installation
 
-** TODO Configuration
+** Configuration
 
 *** Site Configuration
 
