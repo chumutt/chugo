@@ -6,6 +6,55 @@ Chugo is a [[https://github.com/gohugoio/hugo][Hugo]] theme I'm working on for [
 
 * TODO Installation
 
+* Scripts
+
+** Test with draft posts ON, navigating to new changes
+
+#+begin_src sh :shebang "#!/usr/bin/env sh" :tangle ./test.sh
+
+# Run preview server, building and previewing draft posts
+# alongside published ("done") posts, rebuilding on every
+# change that is made to source files, and then navigates
+# to the page on the locally hosted test site that you
+# changed following said change.
+
+hugo server -D --disableFastRender --navigateToChanged
+#+end_src
+
+** Test with draft posts OFF, navigating to any new change
+
+#+begin_src sh :shebang "#!/usr/bin/env sh" :tangle ./test-nodrafts.sh
+
+# Run preview server, building and previewing the site with
+# published ("done") posts, rebuilding on every change
+# that is made to source files, and then navigates
+# to the page on the locally hosted test site that you
+# changed following said change.
+
+hugo server --disableFastRender --navigateToChanged
+#+end_src
+
+** Test and clean up
+
+#+begin_src sh :shebang "#!/usr/bin/env sh" :tangle ./test-cleanup.sh
+
+# Run preview server, building and previewing the site with
+# published ("done") posts, rebuilding on every change
+# that is made to source files, and then navigates
+# to the page on the locally hosted test site that you
+# changed following said change. Cleans up.
+
+hugo server --disableFastRender --navigateToChanged --cleanDestinationDir
+#+end_src
+
+** Test .css file changes
+
+Changes to .css files won't update in previews unless you run ~hugo serve~:
+
+#+begin_src sh :shebang "#!/usr/bin/env sh" :tangle test-serve.sh
+hugo serve
+#+end_src
+
 * Configuration
 
 ** Site Configuration
