@@ -191,16 +191,18 @@ img.link {vertical-align: middle;
           width:32px;
           height:32px;}
 
+/* Main article titles, site title */
 h1 {text-align: center;
     font-style: italic;
     font-family: serif;
+    /* Change the following to a lighter color for better readability */
     color: #313131;
    }
-
+/* h2 – second-level headings (sub-titles, section titles, etc.) */
 h2 {text-align:center;
     color: #7352E6;
     font-family:monospace;}
-
+/* h3 – third-level headings (sub-sections, subsections, etc.) */
 h3 {text-align:center;
     color: #aca4f6;
     font-family:monospace;}
