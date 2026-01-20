@@ -1,134 +1,135 @@
 /* ghost.css */
-/* body {margin:auto; */
-/*       width:80%; */
-/*       padding-top:25px; */
-/*       padding-bottom:8px; */
-/*       background-color: #18191C; */
-/*       color: #FFFFFF; */
-/*       font-family: sans-serif} */
+body {margin:auto;
+      width:80%;
+      padding-top:25px;
+      padding-bottom:8px;
+      background-color: #18191C;
+      color: #FFFFFF;
+      font-family: sans-serif}
 
-/* #center {text-align:center;} */
+#center {text-align:center;}
 
-/* a {color: #ffe620;} */
+a {color: #ffe620;}
 
-/* a:hover {color: #c5d5d5;} */
+a:hover {color: #c5d5d5;}
 
-/* a.articlelist {color: #485978; */
-/*                font-size: 1.25em; */
-/*                font-family: monospace; */
-/*                text-align:center;} */
+a.articlelist {color: #485978;
+               font-size: 1.25em;
+               font-family: monospace;
+               text-align:center;}
 
-/* a.articlelist:hover {color: #c5d5d5;} */
+a.articlelist:hover {color: #c5d5d5;}
 
-/* a.sectionlink {color: #485978; */
-/*                font-size: 1.15em; */
-/*                font-family: monospace; */
-/*                font-weight: 700;} */
+a.sectionlink {color: #485978;
+               font-size: 1.15em;
+               font-family: monospace;
+               font-weight: 700;}
 
-/* a.sectionlink:hover {color: #c5d5d5;} */
+a.sectionlink:hover {color: #c5d5d5;}
 
-/* a.intable {color: #aca4f6;} */
+a.intable {color: #aca4f6;}
 
-/* a.intable:hover {color: #c5d5d5;} */
+a.intable:hover {color: #c5d5d5;}
 
-/* .spoiler {color:#18191C;} */
+.spoiler {color:#18191C;}
 
-/* .spoiler:hover {color: #FFFFFF;} */
+.spoiler:hover {color: #FFFFFF;}
 
-/* ul {margin-left: 10px; */
-/*     margin-right: 10px; */
-/*     padding-right: 40px;} */
+ul {margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 40px;}
 
-/* li {margin-bottom: 3px; */
-/*     list-style-position: inside;} */
+li {margin-bottom: 3px;
+    list-style-position: inside;}
 
-/* img {max-width:100%} */
+img {max-width:100%}
 
-/* img.center {display:block; */
-/*             margin:auto; */
-/*             min-width:400px; */
-/*             min-height:400px;} */
+img.center {display:block;
+            margin:auto;
+            min-width:400px;
+            min-height:400px;}
 
-/* img.center_noresize {display:block; */
-/*                      margin:auto;} */
+img.center_noresize {display:block;
+                     margin:auto;}
 
-/* img.vidya {max-width:400px; */
-/*            max-height:400px; */
-/*            padding:10px; */
-/*            vertical-align:top; */
-/*            display:inline;} */
+img.vidya {max-width:400px;
+           max-height:400px;
+           padding:10px;
+           vertical-align:top;
+           display:inline;}
 
-/* img.link {vertical-align: middle; */
-/*           width:32px; */
-/*           height:32px;} */
+img.link {vertical-align: middle;
+          width:32px;
+          height:32px;}
 
-/* h1 {text-align: center; */
-/*     font-style: italic; */
-/*     font-family: serif; */
-/*     color: #313131; */
-/*    } */
+/* Main article titles, site title */
+h1 {text-align: center;
+    font-style: italic;
+    font-family: serif;
+    /* Change the following to a lighter color for better readability */
+    color: #313131;
+   }
+/* h2 – second-level headings (sub-titles, section titles, etc.) */
+h2 {text-align:center;
+    color: #7352E6;
+    font-family:monospace;}
+/* h3 – third-level headings (sub-sections, subsections, etc.) */
+h3 {text-align:center;
+    color: #aca4f6;
+    font-family:monospace;}
 
-/* h2 {text-align:center; */
-/*     color: #7352E6; */
-/*     font-family:monospace;} */
+strong {font-weight: 700;
+        color: #C5D5D5;}
 
-/* h3 {text-align:center; */
-/*     color: #aca4f6; */
-/*     font-family:monospace;} */
+em, cite {color:#aca4f6;
+          font-family:serif;}
 
-/* strong {font-weight: 700; */
-/*         color: #C5D5D5;} */
+em.hrec {font-weight: 700;
+         font-style: italic;
+         color: lime;}
 
-/* em, cite {color:#aca4f6; */
-/*           font-family:serif;} */
+em.rec {font-weight: 700;
+        color: greenyellow;
+        font-style: normal;}
 
-/* em.hrec {font-weight: 700; */
-/*          font-style: italic; */
-/*          color: lime;} */
+em.srec {font-weight: 500;
+         color: yellow;
+         font-style: normal;}
 
-/* em.rec {font-weight: 700; */
-/*         color: greenyellow; */
-/*         font-style: normal;} */
+em.nrec {font-weight: 400;
+         color: orange;
+         font-style: normal;}
 
-/* em.srec {font-weight: 500; */
-/*          color: yellow; */
-/*          font-style: normal;} */
+em.avoid {font-weight: 700;
+          color: red;
+          font-style: italic;}
 
-/* em.nrec {font-weight: 400; */
-/*          color: orange; */
-/*          font-style: normal;} */
+q, blockquote {font-style: italic;
+               color: #C5D5D5;
+               font-family:serif;}
 
-/* em.avoid {font-weight: 700; */
-/*           color: red; */
-/*           font-style: italic;} */
+#articlelist {margin-top: 20px;
+              font-family: serif;
+              text-align: center;
+              padding: 5px;}
 
-/* q, blockquote {font-style: italic; */
-/*                color: #C5D5D5; */
-/*                font-family:serif;} */
+table {border: 0;}
 
-/* #articlelist {margin-top: 20px; */
-/*               font-family: serif; */
-/*               text-align: center; */
-/*               padding: 5px;} */
+td {border: #f8f8f8 solid 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #313131;
+    color: #f8f8f8;}
 
-/* table {border: 0;} */
+.toprow {background-color: #7352E6;
+         color: #f8f8f8;}
 
-/* td {border: #f8f8f8 solid 1px; */
-/*     padding-left: 2px; */
-/*     padding-right: 2px; */
-/*     padding-top: 0; */
-/*     padding-bottom: 0; */
-/*     background-color: #313131; */
-/*     color: #f8f8f8;} */
+.good {background-color:greenyellow;
+       color:black;}
 
-/* .toprow {background-color: #7352E6; */
-/*          color: #f8f8f8;} */
+.neutral {background-color:gold;
+          color:black;}
 
-/* .good {background-color:greenyellow; */
-/*        color:black;} */
-
-/* .neutral {background-color:gold; */
-/*           color:black;} */
-
-/* .bad {background-color:crimson;} */
-
+.bad {background-color:crimson;}
