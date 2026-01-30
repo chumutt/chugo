@@ -23,7 +23,9 @@ a.articlelist:hover {color: #c5d5d5;}
 a.sectionlink {color: #485978;
                font-size: 1.15em;
                font-family: monospace;
-               font-weight: 700;}
+               font-weight: 700;
+               display: block;
+              }
 
 a.sectionlink:hover {color: #c5d5d5;}
 
